@@ -21,8 +21,11 @@ ShallowWrapper {
         <label>
           Character
           <input
+            className="name"
             name="character"
+            onChange={[Function]}
             type="text"
+            value=""
           />
           <br />
         </label>,
@@ -31,6 +34,7 @@ ShallowWrapper {
           value="search"
         />,
       ],
+      "onSubmit": [Function],
     },
     "ref": null,
     "rendered": Array [
@@ -42,8 +46,11 @@ ShallowWrapper {
           "children": Array [
             "Character",
             <input
+              className="name"
               name="character"
+              onChange={[Function]}
               type="text"
+              value=""
             />,
             <br />,
           ],
@@ -56,8 +63,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
+              "className": "name",
               "name": "character",
+              "onChange": [Function],
               "type": "text",
+              "value": "",
             },
             "ref": null,
             "rendered": null,
@@ -100,8 +110,11 @@ ShallowWrapper {
           <label>
             Character
             <input
+              className="name"
               name="character"
+              onChange={[Function]}
               type="text"
+              value=""
             />
             <br />
           </label>,
@@ -110,6 +123,7 @@ ShallowWrapper {
             value="search"
           />,
         ],
+        "onSubmit": [Function],
       },
       "ref": null,
       "rendered": Array [
@@ -121,8 +135,11 @@ ShallowWrapper {
             "children": Array [
               "Character",
               <input
+                className="name"
                 name="character"
+                onChange={[Function]}
                 type="text"
+                value=""
               />,
               <br />,
             ],
@@ -135,8 +152,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
+                "className": "name",
                 "name": "character",
+                "onChange": [Function],
                 "type": "text",
+                "value": "",
               },
               "ref": null,
               "rendered": null,
