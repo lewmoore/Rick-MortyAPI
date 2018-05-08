@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`renders correctly 1`] = `
+exports[`App renders correctly 1`] = `
 ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
@@ -17,10 +17,10 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "Rick & Mortyu",
+      "children": "Rick & Morty",
     },
     "ref": null,
-    "rendered": "Rick & Mortyu",
+    "rendered": "Rick & Morty",
     "type": "h1",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -29,10 +29,10 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Rick & Mortyu",
+        "children": "Rick & Morty",
       },
       "ref": null,
-      "rendered": "Rick & Mortyu",
+      "rendered": "Rick & Morty",
       "type": "h1",
     },
   ],

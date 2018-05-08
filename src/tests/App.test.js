@@ -7,19 +7,23 @@ import EnzymeAdapter from 'enzyme-adapter-react-16'
 
 Enzyme.configure({adapter: new EnzymeAdapter() });
 
-const app = shallow(<App />);
+describe('App', () => {
 
-it("renders correctly", () => {
-  expect(app).toMatchSnapshot();
-});
+  const app = shallow(<App />);
 
-it('renders without crashing', () => {
-  const div = document.createElement('div');
-  div.id = 'root'
-  ReactDOM.render(<App />, div);;
-});
+  it("renders correctly", () => {
+    expect(app).toMatchSnapshot();
+  });
 
-it ('Renders welcome message', () => {
-  const page = mount(<App />);
-  expect(page.text()).toMatch('Rick & Morty')
+  it('renders without crashing', () => {
+    const div = document.createElement('div');
+    div.id = 'root'
+    ReactDOM.render(<App />, div);;
+  });
+
+  it ('Renders welcome message', () => {
+    const page = mount(<App />);
+    expect(page.text()).toMatch('Rick & Morty')
+  });
+
 })
