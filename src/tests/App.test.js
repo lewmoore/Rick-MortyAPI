@@ -2,10 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../components/App';
 import Enzyme from 'enzyme'
-import { mount } from 'enzyme';
+import { mount, shallow } from 'enzyme';
 import EnzymeAdapter from 'enzyme-adapter-react-16'
 
 Enzyme.configure({adapter: new EnzymeAdapter() });
+
+const app = shallow(<App />);
+
+it("renders correctly", () => {
+  expect(app).toMatchSnapshot();
+});
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
