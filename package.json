@@ -2,6 +2,9 @@
   "name": "rickandmortyapi",
   "version": "0.1.0",
   "private": true,
+  "jest": {
+  "verbose": true
+},
   "dependencies": {
     "babel": "^6.23.0",
     "babel-core": "^6.26.3",
@@ -19,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "jest",
     "eject": "react-scripts eject"
   }
 }
