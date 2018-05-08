@@ -3,7 +3,7 @@ import React from 'react';
 class App extends React.Component {
   render() {
     return (
-      "Hello World"
+      <h1>Rick & Morty</h1>
     )
   }
 }

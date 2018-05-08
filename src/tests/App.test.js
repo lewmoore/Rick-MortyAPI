@@ -15,5 +15,5 @@ it('renders without crashing', () => {
 
 it ('Renders welcome message', () => {
   const page = mount(<App />);
-  expect(page.text()).toMatch('Hello World')
+  expect(page.text()).toMatch('Rick & Morty')
 })
