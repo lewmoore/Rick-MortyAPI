@@ -17,11 +17,37 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "children": "Rick & Morty",
+      "children": Array [
+        <h1>
+          Rick & Morty
+        </h1>,
+        <Form />,
+      ],
     },
     "ref": null,
-    "rendered": "Rick & Morty",
-    "type": "h1",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Rick & Morty",
+        },
+        "ref": null,
+        "rendered": "Rick & Morty",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {},
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -29,11 +55,37 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Rick & Morty",
+        "children": Array [
+          <h1>
+            Rick & Morty
+          </h1>,
+          <Form />,
+        ],
       },
       "ref": null,
-      "rendered": "Rick & Morty",
-      "type": "h1",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Rick & Morty",
+          },
+          "ref": null,
+          "rendered": "Rick & Morty",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

@@ -15,11 +15,4 @@ describe('Form', () => {
   it("renders correctly", () => {
     expect(form).toMatchSnapshot();
   });
-
-
-  // it ('Check the presence of the form button', () => {
-  //   const page = mount(<App />);
-  //   expect(page.text()).toMatch('search')
-  // });
-
 })

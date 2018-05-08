@@ -24,6 +24,7 @@ ShallowWrapper {
             name="character"
             type="text"
           />
+          <br />
         </label>,
         <input
           type="submit"
@@ -44,6 +45,7 @@ ShallowWrapper {
               name="character"
               type="text"
             />,
+            <br />,
           ],
         },
         "ref": null,
@@ -60,6 +62,15 @@ ShallowWrapper {
             "ref": null,
             "rendered": null,
             "type": "input",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": "br",
           },
         ],
         "type": "label",
@@ -92,6 +103,7 @@ ShallowWrapper {
               name="character"
               type="text"
             />
+            <br />
           </label>,
           <input
             type="submit"
@@ -112,6 +124,7 @@ ShallowWrapper {
                 name="character"
                 type="text"
               />,
+              <br />,
             ],
           },
           "ref": null,
@@ -128,6 +141,15 @@ ShallowWrapper {
               "ref": null,
               "rendered": null,
               "type": "input",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {},
+              "ref": null,
+              "rendered": null,
+              "type": "br",
             },
           ],
           "type": "label",

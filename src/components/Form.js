@@ -6,6 +6,7 @@ class Form extends React.Component{
       <form>
         <label>Character
         <input type='text' name='character' />
+        <br/>
         </label>
         <input type='submit' value='search' />
       </form>
